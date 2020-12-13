@@ -3,4 +3,4 @@
 
 EXTRA_CFLAGS = -Wall
 
-obj-m = newrandom.o
+obj-m = xoshiro256.o

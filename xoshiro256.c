@@ -7,7 +7,7 @@
 #define DRIVER_AUTHOR "Nguyen Hoang Nam & Luong Duc Trung"
 #define DRIVER_DESCRIPTION "Create chracter device for user space to open and read random number"
 #define BUFFER_LENGTH (128 * sizeof(uint64_t))
-#define RANDOM_NAME "xoshrio256"
+#define RANDOM_NAME "xoshiro256"
 
 static int random_init(void) __init;
 static void random_fill_buffer(char *, size_t);
